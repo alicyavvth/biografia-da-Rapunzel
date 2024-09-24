@@ -1,0 +1,133 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1,6;
+background-color: rgb(32, 221, 73);
+}
+
+nav{
+position: fixed;
+top: 0;
+width: 100%;
+background-color: rgba(221, 81, 186, 0.514);/* deixa a cor no menu  */
+padding: 20px 0;
+}
+
+nav ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+
+}
+
+nav ul li{
+margin: 0 20px;
+}
+
+nav ul li a{
+color: rgb(26, 4, 23);
+text-decoration: none;
+font-size: 18px;
+padding: 10px;
+transition: color 0.3s;
+}
+
+nav ul li a:hover{/* muda a cor da palavra quando por em cima  */
+    color: rgb(175, 20, 175);
+}
+section:not(#home){
+padding: 100px 20px ;
+text-align:center;
+display: flex;
+justify-content:center;
+align-items:center; 
+height: 100vh;
+    
+} 
+#home{
+   background-image :url(https://br.web.img3.acsta.net/newsv7/20/02/17/15/10/4939771.jpg);
+ /* background-color: rgb(202, 40, 121); */
+background-size: cover;
+background-repeat: no-repeat;
+color:rgb(0, 0, 0);
+height: 100vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 1.5em;
+}
+
+.content {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+}
+
+.content img{
+width: 400px;
+height: 300px;
+object-fit: cover;
+margin-right: 20px;
+border-radius: 8px;
+
+}
+
+.content .text{
+max-width: 600px;
+text-align: left;
+
+}
+
+.content .text p{
+font-size: 2em;
+margin-bottom: 20px;
+color: rgb(4, 8, 4);
+}
+
+.content .text p{
+font-size: 1.1em; 
+color: rgb(224, 195, 226);
+}
+
+#services {
+    background-color: rgb(122, 23, 71);
+}
+
+#about{
+    background-color: rgb(122, 23, 71 );
+}
+
+#contact {
+    background-color: rgb(122, 23, 71);
+}
+
+.cta-button{
+margin-top: 30px;
+background-color: rgb(230, 73, 196);
+color: rgb(122, 11, 89);
+padding: 15px 30px;
+font-size: 18px;
+border: none;
+border-radius: 15px;
+cursor:pointer;
+box-shadow: 0px 4px 6px rgba(78, 12, 19, 0.651);
+transition:backgroun-color 1s ease, transform 1s ease;
+
+}
+
+
+
+
+
+
+
